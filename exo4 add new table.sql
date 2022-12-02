@@ -1,11 +1,11 @@
---création de la table
+--Création de la table
 CREATE TABLE type (
     type_lp VARCHAR(4),
     nom_type VARCHAR(20),
     PRIMARY KEY(type_lp)
 );
 
---insertion des données
+--Insertion des données
 INSERT INTO
     type (type_lp, nom_type)
 VALUES
@@ -15,7 +15,7 @@ VALUES
     ('PCWS', 'PC Windows Server'),
     ('NC', 'Network Computer');
 
---modification des tables 'poste' et 'logiciel'
+--Modification des tables 'poste' et 'logiciel'
 ALTER TABLE
     poste
 ADD

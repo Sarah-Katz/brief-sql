@@ -1,3 +1,4 @@
+--Création des tables
 CREATE TABLE segment (
     n_segment VARCHAR(10),
     nom_segment VARCHAR(20),
